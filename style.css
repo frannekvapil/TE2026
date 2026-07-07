@@ -1,0 +1,300 @@
+* {
+margin : 0;
+padding : 0;
+}
+body {
+padding-top : 0;
+font : 16px "Trebuchet MS", verdana, arial, sans-serif;
+background : #333;
+color : #000;
+}
+			/*WRAP*/
+#wrapper {
+width : 100%;
+background : #eee url("background.png") repeat;
+background-size : cover;
+color : #666;
+}
+
+
+
+			/*HEADER*/
+#banner {
+width : 100%;
+height : auto;
+padding-top : 30px;
+margin-left : auto;
+margin-right : auto;
+background-color : #1034a6;
+}
+#banner table {
+max-width : 90%;
+height : auto;
+margin-left : auto;
+margin-right : auto;
+}
+#banner td {
+width : 150px;
+text-align : center;
+vertical-align : center;
+color : white;
+}
+#banner img {
+width : 60px;
+height : auto;
+margin : 10px;
+border : 2px solid #6d9bc3;
+}
+#banner p {
+padding : 0;
+margin-left : 5%;
+font-size : 16px;
+}
+
+
+
+
+#header {
+width : 100%;
+height : auto;;
+margin : 0;
+padding : 0;
+text-align : center ;
+}
+#header p {
+font-size : 20px;
+color : white;
+}
+
+
+
+					/*CONTENT*/
+#content {
+float : center;
+max-width : 95%;
+margin : 0 auto;
+padding : 5%;
+line-height : 1.8em;
+}
+
+
+#projects {
+width : 80%;
+height : auto;
+margin : 20px auto;
+}
+#projects th {
+font-size : 16px;
+color : white;
+font-weight : bold;
+border-bottom : 2px solid white;
+}
+#projects td {
+width : 150px;
+height : auto;
+text-align : center;
+vertical-align : center;
+font-size : 14px;
+color : white;
+}
+#projects img {
+width : 50%;
+height : auto;
+margin-top : 5px;
+border-radius : 50%;
+}
+
+#other-table {
+width : 80%;
+height : auto;
+margin : 20px auto;
+}
+#other-table th {
+font-size : 16px;
+color : white;
+font-weight : bold;
+border-bottom : 2px solid white;
+}
+#other-table td {
+width : 150px;
+height : auto;
+text-align : center;
+vertical-align : center;
+font-size : 14px;
+color : white;
+}
+#other-table img {
+width : 50%;
+height : auto;
+margin-top : 5px;
+border : 3px solid #7CB9E8;
+outline : 3px solid white;
+}
+
+
+
+
+
+
+					/*FOOTER*/
+#footer {
+clear : both;
+float : center;
+max-width : 800px;
+height : 30px;
+margin : 5% auto 0 auto;
+padding : 3% 0 30px 0;
+background : url("artwork/background-footer.png") repeat;
+background-size : 20%;
+background-position : 0% 50%;
+}
+#footer table {
+width: 100%;
+color : black;
+text-align : center;
+}
+
+
+
+
+
+			/*TYPOGRAPHY*/
+p {
+margin : 10px 20px 10px 15px;
+color : black;
+background-color : inherit;
+}
+h1 {
+margin : 0;
+padding : 30px;
+line-height : 1.3em;
+font-size : 200%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+h2 {
+margin : 0 0 0 15px;
+margin : 0;
+padding : 30px;
+line-height : 1.3em;
+font-size : 160%;
+letter-spacing : 2px;
+color : black;
+background : inherit;
+}
+h3 {
+margin : 0;
+line-height : 1.3em;
+line-height : 1.5em;
+padding : 5px;
+font-size : 150%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+.email {
+font-size : 120%;
+}
+h4 {
+margin : 10px 0;
+padding : 0 0 0px 0px;
+letter-spacing : 2px;
+color : black;
+font-size : 120%;
+}
+h5 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 70%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #045FB4;
+background : inherit;
+}
+blockquote {
+margin : 10px 20px 10px 15px;
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+
+
+
+			/*CLASS*/
+.map {
+display : block;
+float : center;
+max-width : 400px;
+height : auto;
+margin : 30px auto;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 10px;
+}
+.karte {
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 10px;
+}
+
+.flag {
+display : inline-block;
+width : 40px;
+height : auto;
+padding : 5px 30px;
+}
+
+
+.wilkommen-img {
+display : block;
+float : center;
+max-width : 600px;
+height : auto;
+margin : 0 auto;
+}
+
+.bullet-paw {
+height : 30px;
+width : auto;
+padding : 10px 10px 10px 0;
+}
+
+.wichtig-img {
+max-width : 40%;
+}
+
+.fotogalerie-horiz {
+width : 300px;
+height : auto;
+}
+.fotogalerie-vert {
+height : 300px;
+width : auto;
+}
+
+.
+
+
+					/*LINKS*/
+a, a:visited {
+text-decoration : none;
+color : #369;
+background : inherit;
+}
+a:hover {
+color : #333;
+background : inherit;
+}
+a img {
+border : none;
+}
+
+}
+
+
+
+
+
+
+
