@@ -1,0 +1,225 @@
+* {
+margin : 0;
+padding : 0;
+}
+body {
+padding-top : 0;
+font : 73% "Trebuchet MS", verdana, arial, sans-serif;
+background : #333;
+color : #000;
+}
+			/*WRAP*/
+#wrapper {
+width : 700px;
+margin : 0 auto;
+background : #fff;
+border-left : 5px solid #ff0000;
+}
+			/*HEADER*/
+#header {
+width : 100%;
+height : auto;
+font-size : 20px;
+text-align : center;
+background : #4169E1;
+vertical-align : center;
+color : #fff;
+font-weight : bold;
+padding : 5px 0;
+}
+/*
+#banner {
+width : 100%;
+height : 35px;
+text-align: center;
+margin : 0;
+padding : 0;
+border-bottom : 1px solid #336699;
+color : #333;
+background : #369;
+}
+#banner a {
+margin : 5px;
+color : #fff;
+background : inherit;
+}
+#banner a:hover {
+color : #000;
+background : inherit;
+}
+*/
+			/*NAVIGATION
+#navcontainer {
+width : 150px;
+margin : 0 0 20px 0;
+}
+#navcontainer ul {
+margin-left : 0;
+padding-left : 0;
+list-style-type : none;
+}
+#navcontainer a {
+display : block;
+padding : 3px;
+width : 143px;
+border-bottom : 1px solid #eee;
+background : #369;
+color : #eee;
+}
+#navcontainer a:link, #navlist a:visited {
+color : #eee;
+background : #369;
+text-decoration : none;
+}
+#navcontainer a:hover {
+background : #036;
+color : #fff;
+}*/
+
+			/*SIDEBAR
+#sidebar {
+float : left;
+width : 150px;
+padding : 0;
+margin : 0;
+border-top : 1px solid #fff;
+font-size : 100%;
+line-height : 1.8em;
+background : #d1d4d7;
+color : #333;
+}*/
+
+			/*CONTENT*/
+#content {
+background : #fff;
+width : 95%;
+line-height : 1.8em;
+padding : 10px 20px 25px 10px;
+}
+
+button {
+display : block;
+width : 300px;
+height : 30px;
+justify-content : center;
+border : 1px solid #ff0000;
+background-color : #fff;
+color : #ff0000;
+cursor : pointer;
+pading : 5px;
+border-radius : 5px;
+font-size : 16px;
+}
+button a {
+color : #ff0000;
+text-decoration : none;
+}
+
+			/*FOOTER*/
+#footer {
+clear : both;
+width : 100%;
+padding-left : 5px;
+text-align : left;
+border-top : 5px solid #336699;
+}
+			/*TYPOGRAPHY*/
+ul {
+margin-left : 20px;
+}
+ol {
+margin-left : 20px;
+}
+
+p {
+margin : 10px 20px 10px 15px;
+color : #666;
+background-color : inherit;
+}
+h1 {
+margin : 10 px 20px;
+padding : 20px;
+font-size : 200%;
+letter-spacing : 5px;
+color : #000;
+background : inherit;
+}
+h2 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 120%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #045FB4;
+background : inherit;
+}
+h3 {
+margin : 10px 0 10px 15px;
+padding : 0 0 3px 3px;
+text-transform : uppercase;
+font-size : 120%;
+letter-spacing : 2px;
+color : #036;
+background : inherit;
+}
+h4 {
+margin : 10px 0 10px 15px;
+padding : 0 0 3px 3px;
+letter-spacing : 1px;
+color : #036;
+background : inherit;
+font-weight : normal;
+}
+h5 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 70%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #045FB4;
+background : inherit;
+}
+blockquote {
+margin : 10px 20px 10px 15px;
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+			/*CLASS*/
+.img {
+margin : 0 0 10px 0;
+}
+
+.imgmare {
+display: block;
+padding: 5px;
+margin-left: auto;
+margin-right: auto;
+}
+.myborder {
+border : 1px solid #fff;
+padding : 5px;
+margin : 0 0 0 4px;
+}
+.myimg {
+float : left;
+border : 1px solid #eee;
+padding : 5px;
+margin : 5px 10px 10px 4px;
+}
+.mylogo {
+margin-right : auto;
+}
+			/*LINKS*/
+a, a:visited {
+text-decoration : underline;
+background : inherit;
+color : inherit;
+}
+a:hover {
+color : #333;
+background : inherit;
+}
+a img {
+border : none;
+}
