@@ -39,11 +39,18 @@ text-align : center;
 vertical-align : center;
 color : white;
 }
+/*
 #banner img {
-width : 60px;
+width : 100px;
 height : auto;
 margin : 10px;
 border : 2px solid #6d9bc3;
+}
+*/
+#banner img {
+height : 160px;
+width : auto;
+padding : 20px;
 }
 #banner p {
 padding : 0;
@@ -77,6 +84,30 @@ padding : 5%;
 line-height : 1.8em;
 }
 
+#team
+max-width : 90%;
+height : auto;
+margin-left : auto;
+margin-right : auto;
+}
+#team td {
+width : 150px;
+text-align : center;
+vertical-align : center;
+color : white;
+}
+#team img {
+width : 100px;
+height : auto;
+margin : 10px;
+border : 2px solid #6d9bc3;
+}
+#team p {
+padding : 0;
+margin-left : 5%;
+font-size : 16px;
+color : white;
+}
 
 #projects {
 width : 80%;
