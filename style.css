@@ -62,14 +62,24 @@ font-size : 16px;
 
 
 #header {
-width : 100%;
+width : 65%;
 height : auto;;
-margin : 0;
-padding : 0;
-text-align : center ;
+margin : 0 auto;
+padding : 20px 0;
+}
+#header h1 {
+font-size : 20px;
+color : white;
+font-weight : bold;
+}
+#header h2 {
+font-size : 18px;
+color : white;
+text-decoration : underline;
+margin-top: 10px;
 }
 #header p {
-font-size : 20px;
+font-size : 16px;
 color : white;
 }
 
@@ -84,11 +94,11 @@ padding : 5%;
 line-height : 1.8em;
 }
 
-#team
+
+#team {
 max-width : 90%;
 height : auto;
-margin-left : auto;
-margin-right : auto;
+margin : 20px auto;
 }
 #team th {
 font-size : 16px;
@@ -114,6 +124,7 @@ margin-left : 5%;
 font-size : 16px;
 color : white;
 }
+
 
 #projects {
 width : 80%;
@@ -209,141 +220,6 @@ width : auto;
 margin-top : 5px;
 }
 
-
-
-			/*TYPOGRAPHY*/
-p {
-margin : 10px 20px 10px 15px;
-color : black;
-background-color : inherit;
-}
-h1 {
-margin : 0;
-padding : 30px;
-line-height : 1.3em;
-font-size : 200%;
-letter-spacing : 5px;
-color : black;
-background : inherit;
-}
-h2 {
-margin : 0 0 0 15px;
-margin : 0;
-padding : 30px;
-line-height : 1.3em;
-font-size : 160%;
-letter-spacing : 2px;
-color : black;
-background : inherit;
-}
-h3 {
-margin : 0;
-line-height : 1.3em;
-line-height : 1.5em;
-padding : 5px;
-font-size : 150%;
-letter-spacing : 5px;
-color : black;
-background : inherit;
-}
-.email {
-font-size : 120%;
-}
-h4 {
-margin : 10px 0;
-padding : 0 0 0px 0px;
-letter-spacing : 2px;
-color : black;
-font-size : 120%;
-}
-h5 {
-margin : 0 0 0 15px;
-padding : 0;
-font-size : 70%;
-letter-spacing : 5px;
-text-transform : uppercase;
-color : #045FB4;
-background : inherit;
-}
-blockquote {
-margin : 10px 20px 10px 15px;
-font-weight : bold;
-font-style : italic;
-color : #b29b35;
-}
-
-
-
-			/*CLASS*/
-.map {
-display : block;
-float : center;
-max-width : 400px;
-height : auto;
-margin : 30px auto;
-border : 3px solid #7CB9E8;
-outline : 1px solid white;
-border-radius : 10px;
-}
-.karte {
-border : 3px solid #7CB9E8;
-outline : 1px solid white;
-border-radius : 10px;
-}
-
-.flag {
-display : inline-block;
-width : 40px;
-height : auto;
-padding : 5px 30px;
-}
-
-
-.wilkommen-img {
-display : block;
-float : center;
-max-width : 600px;
-height : auto;
-margin : 0 auto;
-}
-
-.bullet-paw {
-height : 30px;
-width : auto;
-padding : 10px 10px 10px 0;
-}
-
-.wichtig-img {
-max-width : 40%;
-}
-
-.fotogalerie-horiz {
-width : 300px;
-height : auto;
-}
-.fotogalerie-vert {
-height : 300px;
-width : auto;
-}
-
-.
-
-
-					/*LINKS*/
-a, a:visited {
-text-decoration : none;
-color : #369;
-background : inherit;
-}
-a:hover {
-color : #333;
-background : inherit;
-}
-a img {
-border : none;
-}
-
-}
 
 
 
